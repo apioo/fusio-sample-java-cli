@@ -34,12 +34,12 @@ public class Main {
     private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
     private static final JsonFactory JSON_FACTORY = new JacksonFactory();
 
-    private static final String API_ENDPOINT = "http://127.0.0.1/projects/fusio/public/index.php";
+    private static final String API_ENDPOINT = "http://demo.fusio-project.org";
     private static final String TOKEN_SERVER_URL = API_ENDPOINT + "/authorization/token";
-    private static final String AUTHORIZATION_SERVER_URL = "http://127.0.0.1/projects/fusio-consumer/auth";
+    private static final String AUTHORIZATION_SERVER_URL = "http://demo.fusio-project.org/developer/auth";
 
-    private static final String API_KEY = "afd389ff-3a3f-45d9-8ccc-c6574380f3da";
-    private static final String API_SECRET = "yBsBlVQAsm7yHfdOIL852oY9vM7y75PhBKtwBbnJ9dKVJmrzaGkKRELrlTDixuOi";
+    private static final String API_KEY = "b5d5888e-abce-465f-833a-a400b6ad9df0";
+    private static final String API_SECRET = "d61thyVQcGyN1wPTAB0UWgzIlI37XE1DwgY8oavm2doRkKt5liu7ydcxYK9WwMYv";
     private static final int PORT = 8080;
     private static final String DOMAIN = "127.0.0.1";
 
