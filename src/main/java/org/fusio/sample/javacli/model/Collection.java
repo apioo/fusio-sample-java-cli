@@ -6,17 +6,17 @@ import com.google.api.client.util.Key;
 
 public class Collection {
     @Key
-    private int totalCount;
+    private int totalResults;
 
     @Key
     private List<Todo> entry;
 
-    public int getTotalCount() {
-        return totalCount;
+    public int getTotalResults() {
+        return totalResults;
     }
 
-    public void setTotalCount(int totalCount) {
-        this.totalCount = totalCount;
+    public void setTotalResults(int totalResults) {
+        this.totalResults = totalResults;
     }
 
     public List<Todo> getEntry() {

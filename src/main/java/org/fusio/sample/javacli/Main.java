@@ -38,8 +38,8 @@ public class Main {
     private static final String TOKEN_SERVER_URL = API_ENDPOINT + "/authorization/token";
     private static final String AUTHORIZATION_SERVER_URL = "http://demo.fusio-project.org/developer/auth";
 
-    private static final String API_KEY = "b5d5888e-abce-465f-833a-a400b6ad9df0";
-    private static final String API_SECRET = "d61thyVQcGyN1wPTAB0UWgzIlI37XE1DwgY8oavm2doRkKt5liu7ydcxYK9WwMYv";
+    private static final String API_KEY = "7f42461e-592c-4cb7-b224-4e22a664b3ad";
+    private static final String API_SECRET = "834beb6235e6c47606da44eeb1366a52a3f5a7da448a07846a89cd361718c843";
     private static final int PORT = 8080;
     private static final String DOMAIN = "127.0.0.1";
 
@@ -94,7 +94,7 @@ public class Main {
 		Collection.class);
 	List<Todo> entries = collection.getEntry();
 
-	System.out.println("Total count: " + collection.getTotalCount());
+	System.out.println("Total count: " + collection.getTotalResults());
 
 	for (int i = 0; i < entries.size(); i++) {
 	    System.out.println("Title: " + entries.get(i).getTitle());
