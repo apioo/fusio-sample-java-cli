@@ -98,8 +98,7 @@ public class Main {
 
 	for (int i = 0; i < entries.size(); i++) {
 	    System.out.println("Title: " + entries.get(i).getTitle());
-	    System.out
-		    .println("Insert date: " + entries.get(i).getInsertDate());
+	    System.out.println("Insert date: " + entries.get(i).getInsertDate());
 	}
     }
 
