@@ -16,6 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws URISyntaxException, IOException {
         List<String> scopes = new ArrayList<>();
+        scopes.add("backend");
         TokenStoreInterface tokenStore = new MemoryTokenStore();
 
         Client client = new Client("https://demo.fusio-project.org/", "test", "FRsNh1zKCXlB", scopes, tokenStore);
@@ -25,7 +26,7 @@ public class Main {
 
         System.out.println("Routes:");
         for (int i = 0; i < collection.getEntry().length; i++) {
-            System.out.println("" + collection.getEntry()[i].getPath());
+            System.out.println("* " + collection.getEntry()[i].getPath());
         }
     }
 
