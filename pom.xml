@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>com.github.apioo</groupId>
 			<artifactId>fusio-sdk-java</artifactId>
-			<version>0.1.8</version>
+			<version>0.1.9</version>
 		</dependency>
 	</dependencies>
 </project>
