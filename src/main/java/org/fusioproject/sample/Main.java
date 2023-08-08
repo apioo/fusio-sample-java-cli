@@ -20,9 +20,9 @@ public class Main {
 
         OperationCollection operations = client.backend().operation().getAll(0, 16, "");
 
-        System.out.println("Routes:");
+        System.out.println("Operations:");
         for (int i = 0; i < operations.getEntry().length; i++) {
-            System.out.println("* " + operations.getEntry()[i].getHttpPath());
+            System.out.println("* " + operations.getEntry()[i].getHttpMethod() + " " + operations.getEntry()[i].getHttpPath());
         }
     }
 
