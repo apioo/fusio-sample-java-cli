@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fusioproject</groupId>
 	<artifactId>sample-javacli</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<packaging>jar</packaging>
 	<url>https://www.fusio-project.org/</url>
 	<build>
@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>org.fusio-project</groupId>
 			<artifactId>sdk</artifactId>
-			<version>1.0.5</version>
+			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 </project>
